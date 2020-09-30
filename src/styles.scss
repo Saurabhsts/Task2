@@ -1,0 +1,21 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.nav-bar{
+  background-color: brown;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 101;
+}
+
+.content-box{
+  margin-top: 10px;
+  height: auto;
+  width: 100%;
+  border: 1px solid rgb(247, 156, 156);
+  border-radius: 10px;
+  padding: 10px;
+}
